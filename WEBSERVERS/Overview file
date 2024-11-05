@@ -1,8 +1,6 @@
-Here's a comprehensive overview of web servers, starting from the basics and moving into more advanced topics:
 
----
 
-### 1. **What is a Web Server?**
+<h1>What is a Web Server?</h1>
 A web server is a software and hardware combination that serves content (like HTML, CSS, JavaScript, images, and videos) to users over the internet. When users enter a URL or click a link, their browser sends a request to the web server, which processes the request and returns the requested data, allowing the browser to display a web page.
 
 ---
