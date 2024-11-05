@@ -43,50 +43,49 @@ Response to Client**: The server responds with the requested data, and the brows
 <h4>Serving Static vs. Dynamic Content</h4>
 
    -Static Content: Direct files stored on the server (like HTML, CSS, and image files).
-   - **Dynamic Content**: Created on demand using server-side programming languages, often requiring database queries and other processing. Examples include PHP for WordPress or Python for Django applications.
+   -Dynamic Content: Created on demand using server-side programming languages, often requiring database queries and other processing. Examples include PHP for WordPress or Python for Django applications.
 
----
 
-### 6. **Server Configuration Files**
+<h4>Server Configuration Files</h4>
 
 Each web server has configuration files that control its behavior:
 
-   - **Apache**: Uses `.htaccess` files for URL rewriting, security settings, etc.
-   - **Nginx**: Uses `nginx.conf` and site-specific configuration files.
-   - **IIS**: Uses XML configuration files.
+   -Apache: Uses `.htaccess` files for URL rewriting, security settings, etc.
+   -Nginx: Uses `nginx.conf` and site-specific configuration files.
+   -IIS: Uses XML configuration files.
 
 ---
 
-### 7. **Security Measures**
+<h3>Security Measures</h3>
 
-   - **HTTPS (SSL/TLS)**: Encrypts data sent between the server and client to ensure security.
-   - **Firewalls**: Prevents unauthorized access to the server.
-   - **Access Control**: Limits user permissions on files and directories.
-   - **DDoS Protection**: Mitigates distributed denial of service (DDoS) attacks that overwhelm the server.
-   - **Web Application Firewalls (WAFs)**: Filters malicious HTTP requests and protects against common attacks like SQL injection and cross-site scripting (XSS).
+   -HTTPS (SSL/TLS): Encrypts data sent between the server and client to ensure security.
+   -Firewalls: Prevents unauthorized access to the server.
+   -Access Control: Limits user permissions on files and directories.
+   -DDoS Protection: Mitigates distributed denial of service (DDoS) attacks that overwhelm the server.
+   -Web Application Firewalls (WAFs): Filters malicious HTTP requests and protects against common attacks like SQL injection and cross-site scripting (XSS).
 
 ---
 
-### 8. **Web Server Caching**
+<h3>Web Server Caching</h3>
 
 Caching improves performance by storing a copy of frequently requested data, which reduces server load and speeds up response times. Web servers can cache:
    
-   - **Static Content**: Storing copies of static files in memory.
-   - **Dynamic Content**: By using reverse proxies like Varnish, which cache dynamic responses.
-   - **Database Queries**: Minimizes database load by caching database responses.
+   -Static Content: Storing copies of static files in memory.
+   -Dynamic Content: By using reverse proxies like Varnish, which cache dynamic responses.
+   -Database Queries: Minimizes database load by caching database responses.
 
 ---
 
-### 9. **Reverse Proxy and Load Balancing**
+<h3>Reverse Proxy and Load Balancing</h3>
 
-   - **Reverse Proxy**: Acts as an intermediary between clients and the main server, improving performance and adding a security layer.
-   - **Load Balancing**: Distributes incoming requests across multiple servers to ensure high availability and prevent server overload.
+   -Reverse Proxy: Acts as an intermediary between clients and the main server, improving performance and adding a security layer.
+   -Load Balancing: Distributes incoming requests across multiple servers to ensure high availability and prevent server overload.
 
 Common tools for reverse proxy and load balancing include Nginx, HAProxy, and AWS Elastic Load Balancer.
 
 ---
 
-### 10. **Common Web Server Protocols**
+<h3>Common Web Server Protocols</h3>
 
    - **HTTP/1.1**: The traditional protocol that allows persistent connections (reuse of the connection for multiple requests).
    - **HTTP/2**: A more modern protocol with features like multiplexing (sending multiple requests over a single connection), reducing latency.
