@@ -3,47 +3,46 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>WebServers</title>
 </head>
 <body>
 
    <h1>What is a Web Server?</h1>
-A web server is a software and hardware combination that serves content (like HTML, CSS, JavaScript, images, and videos) to users over the internet. When users enter a URL or click a link, their browser sends a request to the web server, which processes the request and returns the requested data, allowing the browser to display a web page.
+<p>A web server is a software and hardware combination that serves content (like HTML, CSS, JavaScript, images, and videos) to users over the internet. When users enter a URL or click a link, their browser sends a request to the web server, which processes the request and returns the requested data, allowing the browser to display a web page.
+</p>
 
----
-
-### 2. **Types of Web Servers**
+<h4>Types of Web Servers</h4>
 There are several types of web servers, each with specific strengths:
 
-   - **Apache HTTP Server**: Widely used and open-source, Apache is highly customizable through modules, suitable for most web applications.
-   - **Nginx**: Known for its high performance and efficient resource use, Nginx is often chosen for high-traffic websites.
-   - **LiteSpeed**: Offers high performance and is compatible with Apache configurations, with support for caching.
-   - **Microsoft IIS (Internet Information Services)**: Developed by Microsoft, IIS is often used in Windows environments, supporting .NET applications.
-   - **Caddy**: Known for automatic HTTPS setup and HTTP/2 support, Caddy is popular for smaller, personal projects.
+   -Apache HTTP Server: Widely used and open-source, Apache is highly customizable through modules, suitable for most web applications.
+   -Nginx: Known for its high performance and efficient resource use, Nginx is often chosen for high-traffic websites.
+   - LiteSpeed: Offers high performance and is compatible with Apache configurations, with support for caching.
+   - Microsoft IIS (Internet Information Services): Developed by Microsoft, IIS is often used in Windows environments, supporting .NET applications.
+   - Caddy: Known for automatic HTTPS setup and HTTP/2 support, Caddy is popular for smaller, personal projects.
 
 ---
 
-### 3. **Core Web Server Components**
+<h3>Core Web Server Components</h3>
 
-   - **HTTP Protocol**: The primary protocol for data communication on the web. Web servers listen to HTTP (and HTTPS) requests from clients (usually browsers) and respond with the requested content.
-   - **TCP/IP**: Ensures data packets reach their destination. The server uses this protocol to manage connections.
-   - **Sockets**: Sockets enable communication between the web server and client. Each request from a client opens a socket, and responses are sent back through it.
-
----
-
-### 4. **How Web Servers Work**
-
-1. **Client Request**: The browser sends an HTTP request to the server.
-2. **Server Processing**: The web server processes the request. It may involve:
-   - **Static Content**: Directly serving HTML, CSS, images, etc.
-   - **Dynamic Content**: Running code (like PHP, Python, or JavaScript on Node.js) to generate content dynamically.
-3. **Response to Client**: The server responds with the requested data, and the browser displays it.
+   -HTTP Protocol: The primary protocol for data communication on the web. Web servers listen to HTTP (and HTTPS) requests from clients (usually browsers) and respond with the requested content.
+   -TCP/IP: Ensures data packets reach their destination. The server uses this protocol to manage connections.
+   - Sockets: Sockets enable communication between the web server and client. Each request from a client opens a socket, and responses are sent back through it.
 
 ---
 
-### 5. **Serving Static vs. Dynamic Content**
+<h4>How Web Servers Work</h4>
 
-   - **Static Content**: Direct files stored on the server (like HTML, CSS, and image files).
+Client Request: The browser sends an HTTP request to the server.
+Server Processing: The web server processes the request. It may involve:
+   -Static Content: Directly serving HTML, CSS, images, etc.
+   -Dynamic Content: Running code (like PHP, Python, or JavaScript on Node.js) to generate content dynamically.
+Response to Client**: The server responds with the requested data, and the browser displays it.
+
+---
+
+<h4>Serving Static vs. Dynamic Content</h4>
+
+   -Static Content: Direct files stored on the server (like HTML, CSS, and image files).
    - **Dynamic Content**: Created on demand using server-side programming languages, often requiring database queries and other processing. Examples include PHP for WordPress or Python for Django applications.
 
 ---
