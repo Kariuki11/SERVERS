@@ -1,13 +1,13 @@
 Apache and Nginx are popular web servers that can encounter various types of errors. Here are some common ones, along with potential causes and solutions:
 
-### Common Apache Errors
-1. **403 Forbidden**
-   - **Cause**: This usually happens when file or directory permissions are incorrect, or `.htaccess` files have restrictive settings.
-   - **Solution**: Check file and directory permissions to ensure they are accessible to the Apache user. Review `.htaccess` rules to make sure they aren't blocking access unintentionally.
+ Common Apache Errors
+1. 403 Forbidden
+   - Cause: This usually happens when file or directory permissions are incorrect, or `.htaccess` files have restrictive settings.
+   - Solution: Check file and directory permissions to ensure they are accessible to the Apache user. Review `.htaccess` rules to make sure they aren't blocking access unintentionally.
 
-2. **404 Not Found**
-   - **Cause**: The requested resource does not exist at the specified URL, often due to misconfigured URLs or moved files.
-   - **Solution**: Verify that the requested file or directory exists. Check the `DocumentRoot` in the Apache configuration to ensure it points to the correct directory.
+2. 404 Not Found
+   - Cause: The requested resource does not exist at the specified URL, often due to misconfigured URLs or moved files.
+   - Solution: Verify that the requested file or directory exists. Check the `DocumentRoot` in the Apache configuration to ensure it points to the correct directory.
 
 3. **500 Internal Server Error**
    - **Cause**: Typically caused by issues in the server-side script, incorrect permissions, or errors in `.htaccess`.
