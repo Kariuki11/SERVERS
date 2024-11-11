@@ -63,13 +63,13 @@ Unified Communications Certificates (UCC)
 1. Extended Validation certificates (EV SSL)
 This is the highest-ranking and most expensive type of SSL certificate. It tends to be used for high profile websites which collect data and involve online payments. When installed, this SSL certificate displays the padlock, HTTPS, name of the business, and the country on the browser address bar. Displaying the website owner's information in the address bar helps distinguish the site from malicious sites. To set up an EV SSL certificate, the website owner must go through a standardized identity verification process to confirm they are authorized legally to the exclusive rights to the domain.
 
-Organization Validated certificates (OV SSL)
+2. Organization Validated certificates (OV SSL)
 This version of SSL certificate has a similar assurance similar level to the EV SSL certificate since to obtain one; the website owner needs to complete a substantial validation process. This type of certificate also displays the website owner's information in the address bar to distinguish from malicious sites. OV SSL certificates tend to be the second most expensive (after EV SSLs), and their primary purpose is to encrypt the user's sensitive information during transactions. Commercial or public-facing websites must install an OV SSL certificate to ensure that any customer information shared remains confidential.
 
-Domain Validated certificates (DV SSL)
+3. Domain Validated certificates (DV SSL)
 The validation process to obtain this SSL certificate type is minimal, and as a result, Domain Validation SSL certificates provide lower assurance and minimal encryption. They tend to be used for blogs or informational websites – i.e., which do not involve data collection or online payments. This SSL certificate type is one of the least expensive and quickest to obtain. The validation process only requires website owners to prove domain ownership by responding to an email or phone call. The browser address bar only displays HTTPS and a padlock with no business name displayed.
 
-Wildcard SSL certificates
+4. Wildcard SSL certificates
 Wildcard SSL certificates allow you to secure a base domain and unlimited sub-domains on a single certificate. If you have multiple sub-domains to secure, then a Wildcard SSL certificate purchase is much less expensive than buying individual SSL certificates for each of them. Wildcard SSL certificates have an asterisk * as part of the common name, where the asterisk represents any valid sub-domains that have the same base domain. For example, a single Wildcard certificate for *website can be used to secure:
 
 payments.yourdomain.com
@@ -78,7 +78,7 @@ mail.yourdomain.com
 download.yourdomain.com
 anything.yourdomain.com
 Multi-Domain SSL Certificate (MDC)
-A Multi-Domain certificate can be used to secure many domains and/or sub-domain names. This includes the combination of completely unique domains and sub-domains with different TLDs (Top-Level Domains) except for local/internal ones.
+5. A Multi-Domain certificate can be used to secure many domains and/or sub-domain names. This includes the combination of completely unique domains and sub-domains with different TLDs (Top-Level Domains) except for local/internal ones.
 
 For example:
 
@@ -90,7 +90,7 @@ checkout.example.com
 secure.example.org
 Multi-Domain certificates do not support sub-domains by default. If you need to secure both www.example.com and example.com with one Multi-Domain certificate, then both hostnames should be specified when obtaining the certificate.
 
-Unified Communications Certificate (UCC)
+6. Unified Communications Certificate (UCC)
 Unified Communications Certificates (UCC) are also considered Multi-Domain SSL certificates. UCCs were initially designed to secure Microsoft Exchange and Live Communications servers. Today, any website owner can use these certificates to allow multiple domain names to be secured on a single certificate. UCC Certificates are organizationally validated and display a padlock on a browser. UCCs can be used as EV SSL certificates to give website visitors the highest assurance through the green address bar.
 
 It is essential to be familiar with the different types of SSL certificates to obtain the right type of certificate for your website.
@@ -154,6 +154,9 @@ As well as SSL certificates, these include reputable logos or badges which show 
 
 Stay alert to phishing scams.
 Sometimes cyber attackers create websites that mimic existing websites to trick people into purchasing something or logging in to their phishing site. It is possible for a phishing site to obtain an SSL certificate and therefore encrypt all the traffic that flows between you and it. A growing proportion of phishing scams occur on HTTPS sites — deceiving users who feel reassured by the padlock icon's presence.
+
+
+
 
 To avoid these kinds of attacks:
 
