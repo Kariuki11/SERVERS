@@ -1,6 +1,6 @@
-A **database server** is a dedicated server or service that stores, manages, and provides access to a database, allowing other computers and applications to retrieve and manipulate data. Database servers play a central role in enterprise and web applications, as they enable reliable data management, processing, and sharing. Here’s a detailed look into what database servers are, how they work, and why they’re essential.
+A database server is a dedicated server or service that stores, manages, and provides access to a database, allowing other computers and applications to retrieve and manipulate data. Database servers play a central role in enterprise and web applications, as they enable reliable data management, processing, and sharing. Here’s a detailed look into what database servers are, how they work, and why they’re essential.
 
-### 1. **What is a Database Server?**
+ 1. What is a Database Server?
    - A database server is a software or hardware system that hosts a database and responds to requests from client applications to retrieve or modify stored data.
    - It can be dedicated hardware running specialized database software or a service within a cloud or distributed environment. Database servers centralize data storage, making it easier to manage, secure, and maintain data integrity.
    - They use a Database Management System (DBMS) to manage interactions between the server and clients. This software is responsible for organizing, storing, and retrieving data efficiently.
