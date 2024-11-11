@@ -59,7 +59,8 @@ Domain Validated certificates (DV SSL)
 Wildcard SSL certificates
 Multi-Domain SSL certificates (MDC)
 Unified Communications Certificates (UCC)
-Extended Validation certificates (EV SSL)
+
+1. Extended Validation certificates (EV SSL)
 This is the highest-ranking and most expensive type of SSL certificate. It tends to be used for high profile websites which collect data and involve online payments. When installed, this SSL certificate displays the padlock, HTTPS, name of the business, and the country on the browser address bar. Displaying the website owner's information in the address bar helps distinguish the site from malicious sites. To set up an EV SSL certificate, the website owner must go through a standardized identity verification process to confirm they are authorized legally to the exclusive rights to the domain.
 
 Organization Validated certificates (OV SSL)
