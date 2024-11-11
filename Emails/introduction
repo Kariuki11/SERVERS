@@ -1,7 +1,7 @@
 An email server is a specialized server that sends, receives, stores, and manages email messages. It acts as a digital post office, processing email data and ensuring it reaches the correct recipient. Email servers operate based on email protocols, which define how emails are transmitted and received between devices.
 
 Key Concepts in Email Servers
-1. **SMTP (Simple Mail Transfer Protocol)**: SMTP is the standard protocol for sending emails across the Internet. It's primarily responsible for sending emails from the sender's server to the recipient's email server.
+1. SMTP (Simple Mail Transfer Protocol)**: SMTP is the standard protocol for sending emails across the Internet. It's primarily responsible for sending emails from the sender's server to the recipient's email server.
 
 2. **IMAP (Internet Message Access Protocol)**: IMAP is used to retrieve emails from the server, enabling users to view and manage their messages without downloading them. It allows emails to be synchronized across multiple devices, so messages are consistent across a desktop, laptop, or smartphone.
 
