@@ -2,6 +2,8 @@ What is an SSL certificate?
 
 An SSL certificate is a digital certificate that authenticates a website's identity and enables an encrypted connection. SSL stands for Secure Sockets Layer, a security protocol that creates an encrypted link between a web server and a web browser.
 
+SSL certificates are issued by a trusted Certificate Authority (CA) and contain the website's domain name,
+
 Companies and organizations need to add SSL certificates to their websites to secure online transactions and keep customer information private and secure.
 
 In short: SSL keeps internet connections secure and prevents criminals from reading or modifying information transferred between two systems. When you see a padlock icon next to the URL in the address bar, that means SSL protects the website you are visiting.
